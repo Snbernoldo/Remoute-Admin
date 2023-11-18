@@ -2,16 +2,12 @@
 .container{ justify-content: stretch;     
 }
 .superior{display: grid;
-    grid-template-columns: repeat(2,auto);
-    grid-template-rows: repeat(2,auto);
-    justify-content: stretch;
-    
+    grid-template-columns: repeat(2,auto);    
+    justify-content: stretch;    
 }
-.logo{width: 80%;
+.logo{width: 50%;
     background-color: rgb(127, 255, 146);
-    border-collapse: collapse;
-    
-    
+    border-collapse: collapse;  
     
 }
 .logo img{
@@ -21,11 +17,14 @@
 }
 .titulo{    
     width:100%;
-    background-color: red;}
+    background-color: red;
+    }
+    
+    
 .titulo h1{
     font-size: 150%;
     margin: auto;
-    line-height: ;
+    
 }
 .inferior{display:grid;
 grid-template-rows: (3);
@@ -34,9 +33,10 @@ background-color: blue; }
 
 .botones{width: 100%;
     grid-area: 1 / 1 / 2 / 2;}
-.botones button{width: 100%;
+.botones button{width: 90%;
     background-color: white;
-    margin: 30px;
+    margin: 5%;
+    font-size: 160%;
 }
 
 
