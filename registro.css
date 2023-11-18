@@ -1,0 +1,42 @@
+*{background-color: rgb(135, 233, 233);}
+.container{ justify-content: stretch;     
+}
+.superior{display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    justify-content: stretch;
+    
+}
+.logo{width: 80%;
+    background-color: rgb(127, 255, 146);
+    border-collapse: collapse;
+    
+    
+    
+}
+.logo img{
+    margin: 0 20% 0 30%;
+    width: 40%;
+    
+}
+.titulo{    
+    width:100%;
+    background-color: red;}
+.titulo h1{
+    font-size: 150%;
+    margin: auto;
+    line-height: ;
+}
+.inferior{display:grid;
+grid-template-rows: (3);
+grid-template-columns: (3);
+background-color: blue; }
+
+.botones{width: 100%;
+    grid-area: 1 / 1 / 2 / 2;}
+.botones button{width: 100%;
+    background-color: white;
+    margin: 30px;
+}
+
+

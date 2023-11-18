@@ -1,0 +1,35 @@
+*{background-color: rgb(135, 233, 233);}
+.container{
+    
+    
+      margin: auto;
+}
+.superior h1{     
+    text-align: center;
+    }
+.superior img{
+    width: 20%;    
+    background-color: brown;
+    display: block;
+    margin: auto;
+}
+.inferior{ 
+    display: grid;
+    grid-template-columns:;
+    text-align: center;
+}
+.inferior input{
+    align-items: center;
+    width: 20%;
+    border-color: rgb(36, 223, 16 );
+    background-color: rgb(222, 219, 219);
+    margin: 2% auto 2% auto;
+}
+.inferior button{
+    text-align: center;
+    width: 20%;
+    background-color: rgb(36, 223, 16);
+    color: rgb(7, 7, 7);
+    margin: auto;
+    
+}
